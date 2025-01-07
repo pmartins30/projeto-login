@@ -8,10 +8,11 @@ Tablet: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { /*Config para Tablet */
     
     section#login {
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem {
@@ -32,10 +33,11 @@ Grandes telas: acima de 1200px
 
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /*CONFIGURAÇÕES PARA DESKTOP */
     
     section#login {
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -55,6 +57,7 @@ Grandes telas: acima de 1200px
 
     div#formulario > p {
         font-size: 1.2em;
+        margin: 10px 0px;
     }
 }
 
